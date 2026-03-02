@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $dbname = 'booking_tiket';
-$username = 'root';
-$password = '';
+$username = 'user_server';
+$password = '123';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
